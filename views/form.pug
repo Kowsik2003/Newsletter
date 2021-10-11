@@ -1,0 +1,11 @@
+extend base
+
+block content
+    form(method='POST' action='http://127.0.0.1:8000/')
+      .mb-3
+        label.form-label Name
+        input#exampleInputEmail1.form-control(type='name' name='name')
+      .mb-3
+        label.form-label MailId
+        input#exampleInputPassword1.form-control(type='email' name='mail')
+      button.btn.btn-primary(type='submit') Submit
