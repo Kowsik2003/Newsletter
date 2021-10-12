@@ -10,5 +10,8 @@ submit page :
  
  to sendmail to the subscribers you have to use a header : 
   authentication = process.env.KEY 
- the key is there is config file.
+ the key is there is config file
+and do
+  POST http://127.0.0.1:8000/sendmail
+
 
